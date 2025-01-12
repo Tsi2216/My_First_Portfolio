@@ -1,82 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Portfolio</title>
+    <meta charset="utf-8">
+    <title>Tsion Shimelis - Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #343a40;
+            color: white;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
+        <h1>Tsion Shimelis</h1>
+        <p>Aspiring Web Developer</p>
     </header>
     
-    <main>
-        <article>
-            <h1>Welcome to My First Portfolio</h1>
-            <h2>About Me</h2>
-            <p>This is the first paragraph about myself. I am excited to share my journey and experiences in this portfolio.</p>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-            <h2>My Projects</h2>
-            <p>In this section, I will highlight some of the projects I have worked on. Each project showcases my skills and creativity.</p>
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>I am a passionate web developer with a focus on creating dynamic and user-friendly applications.</p>
+    </section>
 
-            <h2>Skills</h2>
-            <p>Here, I will discuss my skills, including programming languages, design capabilities, and other relevant talents.</p>
-
-            <h2>Contact Information</h2>
-            <p>If you would like to get in touch with me, feel free to reach out through my email or social media.</p>
-
-            <h3>Clickable Image</h3>
-            <a href="https://www.example.com" target="_blank">
-                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" style="width:200px;height:auto;">
-            </a>
-
-            <p>Check out my <a href="tweets.html">Tweets</a>!</p>
-
-            <!-- Container for the table of learners -->
-            <h2>Learner Information</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Age</th>
-                        <th>Country</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>John</td>
-                        <td>25</td>
-                        <td>USA</td>
-                    </tr>
-                    <tr>
-                        <td>Emily</td>
-                        <td>28</td>
-                        <td>Canada</td>
-                    </tr>
-                    <tr>
-                        <td>Michael</td>
-                        <td>32</td>
-                        <td>Australia</td>
-                    </tr>
-                    <tr>
-                        <td>Sophia</td>
-                        <td>21</td>
-                        <td>UK</td>
-                    </tr>
-                </tbody>
-            </table>
+    <section id="projects">
+        <h2>Projects</h2>
+        <article class="project">
+            <h3>My Portfolio Website</h3>
+            <p>A portfolio website showcasing my projects and skills.</p>
+            <a href="https://link-to-your-project.com" target="_blank">View Project</a>
         </article>
-        
-        <aside>
-            <p>Placeholder to add comment thread later.</p>
-        </aside>
-    </main>
+        <article class="project">
+            <h3>Weather App</h3>
+            <p>A web application that provides real-time weather updates.</p>
+            <a href="https://link-to-your-weather-app.com" target="_blank">View Project</a>
+        </article>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I enjoy coding, solving problems, and learning new technologies.</p>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript & React</li>
+            <li>Photography</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out!</p>
+        <p>Email: <a href="mailto:getanehshimelis40@gmail.com">getanehshimelis40@gmail.com</a></p>
+        <p>
+            LinkedIn: <a href="http://linkedin.com/in/tsion-shimelis-06338b320" target="_blank">Tsion Shimelis</a><br>
+            GitHub: <a href="https://github.com/Tsi2216" target="_blank">Tsi2216</a><br>
+            Twitter: <a href="https://twitter.com/Tsilunah" target="_blank">@Tsilunah</a>
+        </p>
+    </section>
 
     <footer>
-        <p>Made by Your Name - <a href="https://www.example.com" target="_blank">here</a>.</p>
+        <p>&copy; 2024 Tsion Shimelis</p>
     </footer>
 </body>
 </html>
