@@ -1,82 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Portfolio</title>
+    <meta charset="utf-8">
+    <title>Your Full Name - Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #343a40;
+            color: white;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
+        <h1>Your Full Name</h1>
+        <p>Your brief tagline or professional statement goes here.</p>
     </header>
     
-    <main>
-        <article>
-            <h1>Welcome to My First Portfolio</h1>
-            <h2>About Me</h2>
-            <p>This is the first paragraph about myself. I am excited to share my journey and experiences in this portfolio.</p>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-            <h2>My Projects</h2>
-            <p>In this section, I will highlight some of the projects I have worked on. Each project showcases my skills and creativity.</p>
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Describe yourself briefly here. You can mention your interests, what you do, or what you're passionate about.</p>
+    </section>
 
-            <h2>Skills</h2>
-            <p>Here, I will discuss my skills, including programming languages, design capabilities, and other relevant talents.</p>
-
-            <h2>Contact Information</h2>
-            <p>If you would like to get in touch with me, feel free to reach out through my email or social media.</p>
-
-            <h3>Clickable Image</h3>
-            <a href="https://www.example.com" target="_blank">
-                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" style="width:200px;height:auto;">
-            </a>
-
-            <p>Check out my <a href="tweets.html">Tweets</a>!</p>
-
-            <!-- Container for the table of learners -->
-            <h2>Learner Information</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Age</th>
-                        <th>Country</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>John</td>
-                        <td>25</td>
-                        <td>USA</td>
-                    </tr>
-                    <tr>
-                        <td>Emily</td>
-                        <td>28</td>
-                        <td>Canada</td>
-                    </tr>
-                    <tr>
-                        <td>Michael</td>
-                        <td>32</td>
-                        <td>Australia</td>
-                    </tr>
-                    <tr>
-                        <td>Sophia</td>
-                        <td>21</td>
-                        <td>UK</td>
-                    </tr>
-                </tbody>
-            </table>
+    <section id="projects">
+        <h2>Projects</h2>
+        <article class="project">
+            <h3>Project Title 1</h3>
+            <p>A brief description of your first project.</p>
+            <a href="https://link-to-your-project1.com" target="_blank">View Project</a>
         </article>
-        
-        <aside>
-            <p>Placeholder to add comment thread later.</p>
-        </aside>
-    </main>
+        <article class="project">
+            <h3>Project Title 2</h3>
+            <p>A brief description of your second project.</p>
+            <a href="https://link-to-your-project2.com" target="_blank">View Project</a>
+        </article>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Provide information about your background, skills, or hobbies. You can also use lists if you prefer.</p>
+        <ul>
+            <li>Skill or Hobby 1</li>
+            <li>Skill or Hobby 2</li>
+            <li>Skill or Hobby 3</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out!</p>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>
+            LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn</a><br>
+            GitHub: <a href="https://github.com/your-github" target="_blank">Your GitHub</a>
+        </p>
+    </section>
 
     <footer>
-        <p>Made by Your Name - <a href="https://www.example.com" target="_blank">here</a>.</p>
+        <p>&copy; 2024 Your Name</p>
     </footer>
 </body>
 </html>
